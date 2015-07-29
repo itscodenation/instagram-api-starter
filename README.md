@@ -1,34 +1,31 @@
-#Project 2 - Rock, Paper, Scissors
-![Imgur](http://i.imgur.com/Gpy0Lkw.jpg)
+#Project 5 - Instagram Searcher
+![Imgur](http://i.imgur.com/P71EYPE.png)
 
 
 ##Do Now 
 Begin this session by completing the [Do Now](doNow.md) activity.
 
 ##Scope
-You have just been contracted by Old Games, New Programs LLC. They have asked you to make a webapp for Rock, Paper, Scissors. This project was originally contracted to an intern that did not finish the project. Your manager has given you one week to take the former intern's starter code and make a fully functioning game.  
+You have just been hired by Social Media, But Better! LLC. For your first project you will be creating a webapp that uses the Instargam API to display photos tagged with anything the user types in. Your manager would like to test your skills. She has given you starter code with plenty of comments for completion. You have been given one week to make a fully functioning webapp.  
 
 ##Project Criteria
 Your Manager has laid out the following requirements for the project: 
 
-* The game will be a 1 player game (user vs. bot).
-* The bot must randomly choose a throw.
+* The webapp will display thumbnails of photos related to anything the user types in.
+* User must be able to click the search button to display related thumbnails
 * The game must keep score.
 * The game must display the winner to the user.
 
 ##Learning Objectives
 By the end of this project the employee will be able to...
 
-* Clone and push a GitHub repository
-* Implement Math.random
-* Use conditions to evaluate a function
-* Use an incrementor
+* Register their application with Instagram to obtain a client id
+* Get information from Instagram using its API
+* Append images to and HTML page
 
 ##References/Tools
-* [Script Tag](http://javascript.crockford.com/script.html)
-* [How Jquery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
-* [JQuery Events](http://api.jquery.com/category/events/)
-* [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+* [Instagram Developers Guide](https://instagram.com/developer/)
+
  
 ##Vocabulary
 
