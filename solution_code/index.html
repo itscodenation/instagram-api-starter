@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-        </title>
-        <link type='text/css' rel='stylesheet' href='style.css' />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src='script.js'></script>
-    </head>
-    <body>
-            <div class="container">
-                <div id="rock" class="token">ROCK</div>
-                <div id="paper" class="token">PAPER</div>
-                <div id="scissor" class="token">SCISSORS</div>
-            </div>
-            <div class="container">
-                <div id="message">
-                    Click on your selection
-                </div>
-            </div id='point'>
-            <div>
-                User Points: <span id='userPoint'></span>
-                Ai Points: <span id='aiPoint'></span>
-            </div>
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="js/instagram_client.js"></script>
+	<script src="js/script.js"></script>
+	<title>Instagram API Searcher</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+	<div class="container">
+		<h1>Instagram Search</h1>
+		<hr/>
+		<div class="well well-lg">
 
-        </div>
-    </body>
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-8">
+					<input id="search-query" class="form-control" placeholder="search for..."/>
+				</div>
+				<div class="col-sm-2">
+					<button type="submit" id="search-btn" class="btn btn-primary btn-block">Search</button>
+				</div>
+				<div class="col-sm-1"></div>
+			</div>
+		</div>
+		<hr/>
+		<div id="search-results">
+		</div>
+		
+	</div>
+</body>
+
+
 </html>
