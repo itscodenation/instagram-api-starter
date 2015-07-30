@@ -11,17 +11,20 @@ You have just been hired by Social Media, But Better! LLC. For your first projec
 ##Project Criteria
 Your Manager has laid out the following requirements for the project: 
 
-* The webapp will display thumbnails of photos related to anything the user types in.
+* The webapp will display 9 thumbnails of photos related to anything the user types in.
 * User must be able to click the search button to display related thumbnails
-* The game must keep score.
-* The game must display the winner to the user.
+* On any subsequent search, the system shall clear the prior results and show images reflecting results from the new search query.
+* If the user clicks a "clear" button, the system shall clear the results of all thumbnails and clear the search bar of any text.
+* On mouseover, the instagram username shall display over the thumbnail image
+
 
 ##Learning Objectives
 By the end of this project the employee will be able to...
 
-* Register their application with Instagram to obtain a client id
-* Get information from Instagram using its API
-* Append images to and HTML page
+* Register their application with Instagram to obtain a client id.
+* Get information from Instagram using its API.
+* Append images to and HTML page.
+* Empty content from a selected div.
 
 ##References/Tools
 * [Instagram Developers Guide](https://instagram.com/developer/)
@@ -29,47 +32,38 @@ By the end of this project the employee will be able to...
  
 ##Vocabulary
 
-* Random
-* Function
-* Conditional
-* Evaluate 
-* Return 
+* Append
+* Empty
+* Index
+* Mouseover 
+* Endpoint
+* Callback
 
 ***
 ##Instructions
 
 You are given Starter Code for this project which you must clone into your own workspace.
-You will notice that there are comments inside the script.js file that provide instructions for how components of this project should be made.  
+You will notice there are two js files. `instragram_client.js` is the work provided to you and `script.js` is the work you must complete. in order to understand what components you must build in script.js you must carefully read and understand the contents of instagram_client.js. 
 
-####In order to make Rock, Paper, Scissors functional you will need to complete the three tasks below:
+####In order to make this webapp functional to the standards set out by your manager you will need to complete the tasks below:
 
 ###1) Clone this repo into your own Cloud9 account workspace
-1. Copy the "clone URL" from this repo
-2. In your Cloud9 dashboard click on the green "Create New Workspace" button and select "Clone from URL"
-
-Once the workspace has been processed check to be sure it is up to date by running ` git status ` in the terminal. You should receive a messege telling you that your branch is up to date.   
-![Imgur](http://i.imgur.com/RKdsduL.png)
-
-**NOTE: It is common practice to push you changes to your GitHub repository often. It is recommended you make a push after every major change. Through the course of completing this project you should make 7-10 pushes to GitHub. Your manager will be grading you on this.**
-
-To push to GitHub run the following commands in your terminal:  
-`git status`  
-`git add .`  
-`git commit -m "example comment"`  
-`git push origin master`
 
 
-###2) index.html
-The HTML file in this repo is not fully complete as of right now. Follow the comments within the file before moving on to the script.js file.
+###2) client_id
+Place the client id you aquired in the [Do Now](doNow.md) into your code to initialize your webapp.
 
-###3) script.js
-Use the comments within the script.js file to help you complete the missing components of this game. Luckily, the former intern left very detailed comments that are easy to follow.
+###2) script.js
+In this file you will need to ready your document in order make the API call based on user input. 10 images will appear as thumbnails as a result of evaluating the results of the user input. 
+
+###3) Clear!
+Add a button named "clear" to your webapp. This button shall clear all thumbnail images and the search bar of any text from the previous search.
 
 ###Bonus) 
 Your Manager has offered a stipend a $500 for each of the bonus requirements listed below: 
 
-* Add CSS to this project using Bootstrap. Give it it's own theme
-* Create a game with more variety in throwing opitons. Example: [Rock-Paper-Scissors-Lizard-Spock](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock) 
+* On mouseover, the Instagram username shall display over the thumbnail image
+* If the user clicks on a thumbnail, an overlay shall show with a larger version of the image, as well as the caption and the number of “likes” (if any) the image has received. 
 ***
 
 ##Grading Criteria
