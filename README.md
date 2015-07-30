@@ -14,7 +14,7 @@ Your Manager has laid out the following requirements for the project:
 * The webapp will display 9 thumbnails of photos related to anything the user types in.
 * User must be able to click the search button to display related thumbnails
 * On any subsequent search, the system shall clear the prior results and show images reflecting results from the new search query.
-* If the user clicks a "clear" button, the system shall clear the results of all thumbnails and clear the search bar of any text.
+* If the user clicks a "reset" button, the system shall clear the results of all thumbnails and clear the search bar of any text.
 * On mouseover, the instagram username shall display over the thumbnail image
 
 
@@ -56,8 +56,8 @@ Authenticate your webapp by placing the client id you aquired in the [Do Now](do
 ###2) script.js
 In this file you will need to ready your document in order make the API call based on user input. 10 images will appear as thumbnails as a result of evaluating the results of the user input. 
 
-###3) Clear!
-Add a button named "clear" to your webapp. This button shall clear all thumbnail images and the search bar of any text from the previous search.
+###3) Reset!
+Add a button named "reset" to your webapp. This button shall clear all thumbnail images and the search bar of any text from the previous search.
 
 ###Bonus) 
 Your Manager has offered a stipend a $500 for each of the bonus requirements listed below: 
