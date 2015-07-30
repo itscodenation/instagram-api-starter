@@ -1,24 +1,10 @@
-#[Do Now] Project 2  - Rock, Paper, Scissors
-
+#[Do Now] Project 5  - Instagram Searcher
 The do now activity for this session is to write out the rules and conditions for Rock, Paper, Scissors on a piece of paper.
 
-**Step one:** complete the chart below on your piece of paper.
+Navigate to the [Instagram Developers Guide](https://instagram.com/developer/) to register a new client.
 
-| Player1  |  Player2 |  Winner |
-|----------|----------|---------|
-| Rock     | Rock     |         |
-| Rock     | Paper    |         |
-| Rock     | Scissors |         |
-| Paper    | Rock     |         |
-| Paper    | Paper    |         |
-| Paper    | Scissors |         |
-| Scissors | Rock     |         |
-| Scissors | Paper    |         |
-| Scissors | Scissors |         |
+In order to register your app you will need to sign in to your instagram account. If you do not have an Istagram account if you do not have an Instagram account please create one first.   
 
+When prompted for a Website URL and Redirect URL you can provide the link to your GitHub profile.  
 
-
-**Step two:** On that same piece of paper with the column chart, write out the basic rules to the game of Rock, Paper, Scissors
-
-
-**NOTE:** If you don't know how to play, play a few games with a teacher or someone next to you.
+![Imgur](http://i.imgur.com/caISxXV.png)

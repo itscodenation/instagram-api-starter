@@ -47,11 +47,11 @@ You will notice there are two js files. `instragram_client.js` is the work provi
 
 ####In order to make this webapp functional to the standards set out by your manager you will need to complete the tasks below:
 
-###1) Clone this repo into your own Cloud9 account workspace
+###1) Clone this repo into your own Cloud9 workspace
 
 
-###2) client_id
-Place the client id you aquired in the [Do Now](doNow.md) into your code to initialize your webapp.
+###2) Authentication
+Authenticate your webapp by placing the client id you aquired in the [Do Now](doNow.md) into your code. Guidance on the process can be found in the [Instagram Developers Guide](https://instagram.com/developer/).
 
 ###2) script.js
 In this file you will need to ready your document in order make the API call based on user input. 10 images will appear as thumbnails as a result of evaluating the results of the user input. 
