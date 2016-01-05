@@ -6,7 +6,7 @@
 Begin this session by completing the [Do Now](doNow.md) activity.
 
 ##Scope
-You have just been hired by Social Media, But Better! LLC. For your first project you will be creating a webapp that uses the Instargam API to display photos tagged with anything the user types in. Your manager would like to test your skills. She has given you starter code with plenty of comments for completion. You have been given one week to make a fully functioning webapp.  
+You have just been hired by Social Media, But Better! LLC. For your first project you will be creating a webapp that uses the Instagram API to display photos tagged with anything the user types in. Your manager would like to test your skills. She has given you starter code with plenty of comments for completion. You have been given one week to make a fully functioning webapp.  
 
 ##Project Criteria
 Your Manager has laid out the following requirements for the project: 
