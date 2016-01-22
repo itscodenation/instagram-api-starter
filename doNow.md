@@ -1,8 +1,4 @@
 #[Do Now] Project 5  - Instagram Searcher
-Navigate to the [Instagram Developers Guide](https://instagram.com/developer/) to register a new client.
+Navigate to the [Flickr Developers Guide](https://www.flickr.com/services/apps/create/) to register a new client.
 
-In order to register your app you will need to sign in to your instagram account. If you do not have an Instagram account please create one first.   
-
-When prompted for a Website URL and Redirect URL you can provide the link to your GitHub profile.  
-
-![Imgur](http://i.imgur.com/caISxXV.png)
+In order to register your app you will need to sign in to your Yahoo! account (they own flickr). If you do not have a Yahoo account please create one first.
