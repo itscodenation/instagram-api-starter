@@ -15,7 +15,6 @@ Your Manager has laid out the following requirements for the project:
 * The user must be able to click the search button to display related thumbnails
 * On any subsequent search, the system shall clear the prior results and show images reflecting results from the new search query.
 * If the user clicks a "reset" button, the system shall clear the results of all thumbnails and clear the search bar of any text
-* On mouseover, the flickr username shall display over the thumbnail image
 
 
 ##Learning Objectives
